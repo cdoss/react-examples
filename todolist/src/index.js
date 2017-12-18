@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import ToDoList from './ToDoList';
 
-ReactDOM.render(<div>Hello World!</div>, document.getElementById('app'));
+ReactDOM.render(<ToDoList />, document.getElementById('app'));
