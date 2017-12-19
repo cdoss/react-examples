@@ -6,8 +6,14 @@ class ToDoList extends React.Component {
       <div>      
         <h2>To Do List</h2>
         <div>
-          <input></input>
+          <input placeholder="Enter task"></input>
           <button>Add</button>
+        </div>
+        <div className="toDoList">
+          <li>To Do Item</li>
+          <li>To Do Item</li>
+          <li>To Do Item</li>
+          <li>To Do Item</li>
         </div>
       </div>
     );
