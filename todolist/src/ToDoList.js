@@ -1,4 +1,6 @@
 import React from 'react';
+import './index.css';
+import ToDoItem from './ToDoItem.js';
 
 class ToDoList extends React.Component {
   render() {
@@ -10,10 +12,9 @@ class ToDoList extends React.Component {
           <button>Add</button>
         </div>
         <div className="toDoList">
-          <li>To Do Item</li>
-          <li>To Do Item</li>
-          <li>To Do Item</li>
-          <li>To Do Item</li>
+          <ToDoItem />
+          <ToDoItem />
+          <ToDoItem />
         </div>
       </div>
     );
